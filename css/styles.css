@@ -19,3 +19,16 @@
 .red-background {
   background-color: red;
 }
+.dark-mode {
+  background-color: black;
+  color: pink;
+}
+#go-light {
+  color: black;
+  background-color: #e0fffc;
+}
+
+#go-dark {
+  color: pink;
+  background-color: black;
+}

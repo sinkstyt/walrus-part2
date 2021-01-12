@@ -20,4 +20,14 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("red-background");
   });
+
+  $("button#go-dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-mode");
+  });
+
+  $("button#go-light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-mode");
+  });
 });
